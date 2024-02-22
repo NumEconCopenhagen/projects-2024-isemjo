@@ -1,9 +1,9 @@
-# \[Group name\]
+# \[isemjo\]
 
 **Group members:**
-- A
-- B
-- C
+- Isabella Grünwald (nlv483)
+- Emil Munch (snd950)
+- Josephine Ørum-Hansen (fpl469)
 
 This repository contains  
 1. Inaugural project. 
