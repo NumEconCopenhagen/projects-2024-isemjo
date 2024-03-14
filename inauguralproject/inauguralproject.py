@@ -24,29 +24,21 @@ class ExchangeEconomyClass:
 
     def utility_A(self,x1A,x2A):
         par=self.par
+        return x1A**par.alpha *x2A**(1-par.alpha)
 
-        u=x1A**par.alpha *x2A**(1-par.alpha)
-        return u 
 
     def utility_B(self,x1B,x2B):
         par=self.par
-
-        u=x1B**par.beta *x2B**(1-par.beta)
-        return u 
+        return x1B**par.beta *x2B**(1-par.beta)
 
     def demand_A(self,p1):
         par=self.par
-
-        x1A = par.alpha*(p1*par.w1A+par.w2A)/p1
-        x2A = (1-par.alpha) *(p1*par.w1A+par.w2A)
-        return x1A, x2A
+        return par.alpha*(p1*par.w1A+par.w2A)/p1,(1-par.alpha) *(p1*par.w1A+par.w2A)
 
     def demand_B(self,p1):
         par=self.par
 
-        x1B = par.beta*(p1*par.w1B+par.w2B)/p1
-        x2B = (1-par.beta) *(p1*par.w1B+par.w2B)
-        return x1B, x2B
+        return par.beta*(p1*par.w1B+par.w2B)/p1, (1-par.beta) *(p1*par.w1B+par.w2B)
 
     def check_market_clearing(self,p1):
 
@@ -55,24 +47,10 @@ class ExchangeEconomyClass:
         x1A,x2A = self.demand_A(p1)
         x1B,x2B = self.demand_B(p1)
 
-        x1A + x1B == par.w1A + par.w1B
-
         eps1 = x1A-par.w1A + x1B-(1-par.w1A)
         eps2 = x2A-par.w2A + x2B-(1-par.w2A)
 
         return eps1,eps2
-    
-
-for x1A, x2A in np
-
-def c(x1A,x2A):
-    if utility_A(x1A,x2A) >= utility_A(par.w1A,par.w2A):
-        return x1A, x2A
-    elif :
-        return -w
-    else:
-        return w
-gvec=np.vectorize(g)(x, w = omega)
 
 
         
