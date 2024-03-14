@@ -63,6 +63,16 @@ class ExchangeEconomyClass:
         return eps1,eps2
     
 
+for x1A, x2A in np
+
+def c(x1A,x2A):
+    if utility_A(x1A,x2A) >= utility_A(par.w1A,par.w2A):
+        return x1A, x2A
+    elif :
+        return -w
+    else:
+        return w
+gvec=np.vectorize(g)(x, w = omega)
 
 
         
