@@ -62,9 +62,7 @@ class ExchangeEconomyClass:
 
         return eps1,eps2
     
-    def Edgeworth_box_C(x1A, x2A)
-        par = self.par
 
-        
+
 
         
