@@ -13,6 +13,7 @@ class ExchangeEconomyClass:
         # b. endowments
         par.w1A = 0.8
         par.w2A = 0.3
+        
 
     def utility_A(self,x1A,x2A):
         pass
