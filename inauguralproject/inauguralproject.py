@@ -66,3 +66,5 @@ class ExchangeEconomyClass:
         par = self.par
 
         
+
+        
