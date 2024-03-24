@@ -4,6 +4,7 @@ from scipy import optimize
 import pandas as pd 
 import matplotlib.pyplot as plt
 import warnings
+from scipy.optimize import minimize
 
 class ExchangeEconomyClass:
 
