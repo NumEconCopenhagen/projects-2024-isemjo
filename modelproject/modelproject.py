@@ -26,7 +26,7 @@ def solow_equation(variable, s, n, g, delta, alpha, beta, kappa, X):
         return [np.inf]
 
     # Set Solow equation for z_{t+1}-z_{t} = 0
-    solow_z = (1 / ((1 + n) * (1 + g)))**beta * (s + (1 - delta) * z)**(1 - alpha) * z**alpha
+    solow_z = (1 / ((1 + n) * (1 + g)))**beta * (s + (1 - delta) * z)**(1 - alpha) * z**alpha - z
 
     # Return equations
     return solow_z
