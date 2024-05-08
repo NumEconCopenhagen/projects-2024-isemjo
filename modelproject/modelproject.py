@@ -2,7 +2,7 @@ import numpy as np
 from scipy import optimize
 import random
 
-def solow_equation(variable, s, n, g, delta, alpha, beta, kappa, X):
+def solow_equation(variable, s, n, g, delta, alpha, beta):
     """
     Args:
         variables (list or tuple): Contains one variables to be solved for: physical capital
@@ -12,8 +12,6 @@ def solow_equation(variable, s, n, g, delta, alpha, beta, kappa, X):
         delta             (float): Depreciation rate
         alpha             (float): Output elasticity of physical capital
         beta              (float): Output elasticity of labor-augmenting productivity
-        kappa             (float): Output elasticity of land
-        X                 (float): Fixed supply of land
     Returns:
         Solow equation for z_{t+1}-z_{t}
     """
@@ -23,11 +21,10 @@ def solow_equation(variable, s, n, g, delta, alpha, beta, kappa, X):
     # Checks for edge cases, used in multi_start
     if z <= 0:
         # Return a very large residual to indicate a poor solution
-        return [np.inf]
+        return [np.inf, np.inf]
 
     # Set Solow equation for z_{t+1}-z_{t} = 0
     solow_z = (1 / ((1 + n) * (1 + g)))**beta * (s + (1 - delta) * z)**(1 - alpha) * z**alpha - z
-
     # Return equations
     return solow_z
 
@@ -55,7 +52,7 @@ def multi_start(num_guesses=100, bounds=[1e-5, 50], fun=solow_equation, args= No
     # Loop through each random initial guess
     for i in range(num_guesses):
         # Select a random pair of numbers from the list of random samples
-        initial_guess = random.sample(random_samples, 2)
+        initial_guess = random.sample(random_samples, 1)
 
         # Solve the optimization problem with the current initial guess
         sol = optimize.root(fun = fun, x0 = initial_guess, args = args, method = method)
