@@ -16,3 +16,11 @@ We apply the **following datasets**:
 **Dependencies:** Apart from a standard Anaconda Python 3 installation, the project requires the following installations:
 
 ``pip install matplotlib-venn``
+# The DST API wrapper
+%pip install git+https://github.com/alemartinello/dstapi
+# A wrapper for multiple APIs with a pandas interface
+%pip install pandas-datareader
+
+import datetime
+import pandas_datareader 
+from dstapi import DstApi
