@@ -51,3 +51,16 @@ class ExchangeEconomyClass:
         eps2 = x2A-par.w2A + x2B-(1-par.w2A)
 
         return eps1,eps2
+
+    def market_clearing_price_Q8(self,p1,maxitter=500):
+        par = self.par
+        eps = 1e-8    
+        t = 0
+        while True:
+            eps1,eps2 = self.check_market_clearing(p1)
+            if np.abs(eps1) < eps or t >= maxitter:
+                break 
+            p1= p1 + 0.5*eps1/par.alpha
+            t +=1
+        
+        return p1
