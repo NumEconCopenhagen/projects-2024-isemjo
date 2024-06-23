@@ -43,11 +43,11 @@ Interactive Visualization: Utilizes interactive sliders to dynamically explore h
 
 We have used OpenAI ChatGPT 4o to help with making the code for problem 1, 2 and 3.
 
-In problem 1 we consider a production economy and CO2 taxation. 
+In **problem 1** we consider a production economy and CO2 taxation. 
 
 First we consider 10 values of p1 and p2 respectively in the range of {0.1,2.0}, where we find the market clearing values for the labour market, for the goods market 1 and for the goods market 2. In the next part we find the equilibrium prices p1 and p2 by using Walras’ law and checking two of the market clearings. In the end we have to find a value of tau that maximizes the social welfare function.
 
-Problem 2 deals with a career choice model. 
+**Problem 2** deals with a career choice model. 
 
 In question 2.1 we simulate and calculate expected utility and average realized utility and find that they are the same as the random noise is zero on average (law of large numbers).
 
@@ -56,3 +56,5 @@ In question 2.2. we consider the case where graduates do not themselves now the 
 In question 2.3. we build from question 2, but now consider the case where graduates can switch careers after 1 year but have a switching costs. We find that the difference between expected subejctive utility after switching and average ex post relalized utility after switching is decreasing in the graduate type, reflecting that more friends results in a more informed decision making. Because of the presence of swithcing costs we see that both the expected and realized utility is lower compared question 2.2.
 
 We look at the share of graduates switching careers conditional on the inital career choice. We find that carrer choice 1 has the highest share of graduates switching, followed by career 2 and then 3, which is consisten with the given utility v for each carrer track. We see that the share of graduates switching is decreasing in the graduate type, again refleting that graduate types with more friends are more informed of the value of v for each career.
+
+**Problem 3** consider barycentric interpolation for a set of random points within the unit square. This involves generating random points, determining their function values, and using these values to approximate the function at a new point using barycentric coordinates within triangles formed by the nearest points. In the end, we compute the interpolated function value at a given point and compare it with the true value, repeating this process for a set of specified points.
