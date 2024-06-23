@@ -8,16 +8,9 @@
 
 This repository contains  
 1. Inaugural project.  
+In this project we examine different outcomes for an exchange economy defined for for two agents, A and B, and two goods. We define and illustrate the pareto efficent allocations in and Edgeworth box. We then solve for the market clearing price by calculating the error in the market clearing condition. We solve for the optimal allocations given that agent A maximizes her own utility and after, that A maximizes her utility given that agent B's utility cannot be worse than his intital endowment. In the end we solve the social planner problem and compare all the allocations in the Edgeworth box. We see that all the allocations are in the pareto efficient area.
 
-Our project is titled The Solow Model with Land.
-
-This project implements an extended version of the Solow growth model, incorporating not only traditional inputs like capital and labor but also land and exhaustible natural resources. It uses numerical methods to find the steady state of the capital-output ratio under different parameter settings.
-
-Features:
-
-Solow Growth Model Implementation: Extends the basic Solow model to include land and exhaustible natural resources.
-Multi-Start Optimization: Employs a multi-start optimization approach to robustly find the steady state solutions.
-Interactive Visualization: Utilizes interactive sliders to dynamically explore how changes in model parameters affect the steady state.
+We also solve and simulate a pre-specified economic model where we visualize the results.
 
 3. Data project.
 We fetch data from LONS50 (Danmarks statistik) on LONS30 (Danmarks statistik) using an API and show the income distrubution in Denmark based on region, age and sector.
@@ -30,7 +23,14 @@ In 2022 we see that the income median is increasing in age groups but peaks at t
 
 The average income has increased for all sectors in Denmark from 2013 to 2022, however the sector Municipal and regional gowerment has had the greates growth rate, which is also the case when looking at the individual areas. In region Hovedstaden the highest income is from the sector Corporations and organizations, wheras in the other areas the sector for Goverment including social security funds has the highest average income, which could be because of higher average wages in the private sector in the capital city.
 
-4. Model project. We model ...
+4. Model project.
+We model The Solow Model with Land. The project implements an extended version of the Solow growth model, incorporating not only traditional inputs like capital and labor but also land and exhaustible natural resources. It uses numerical methods to find the steady state of the capital-output ratio under different parameter settings.
+
+It features:
+
+Solow Growth Model Implementation: Extends the basic Solow model to include land and exhaustible natural resources.
+Multi-Start Optimization: Employs a multi-start optimization approach to robustly find the steady state solutions.
+Interactive Visualization: Utilizes interactive sliders to dynamically explore how changes in model parameters affect the steady state.
 
 5. Exam project.
 
