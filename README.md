@@ -36,3 +36,10 @@ Interactive Visualization: Utilizes interactive sliders to dynamically explore h
 
 We have used OpenAI ChatGPT 4o to help with making the code for problem 1, 2 and 3.
 
+Problem 2 deals with a career choice model. 
+
+In question 2.1 we simulate and calculate expected utility and average realized utility and find that they are the same as the random noise is zero on average (law of large numbers).
+
+In question 2.2. we consider the case where graduates do not themselves now the utility from each career track but only the average utility of their friends for each career. We find that graduate types with more friends end up choicing the career with the highest given utility (v=3) and therefore end up with the highest realized utility. They also have a smaller difference between average subjective expected utility and realized utility.
+
+In question 2.3. we build from question 2, but now consider the case where graduates can switch careers after 1 year but have a switching costs. We see that career 3 
