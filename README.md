@@ -14,6 +14,7 @@ In this project we examine different outcomes for an exchange economy defined fo
 We also solve and simulate a pre-specified economic model where we visualize the results.
 
 2. Data project.
+
 We fetch data from LONS50 (Danmarks statistik) on LONS30 (Danmarks statistik) using an API and show the income distrubution in Denmark based on region, age and sector.
 
 We examining the overall income devlopment from 2013 to 2022, looking at the hourly wage (earnings in DKK per hour worked) for all of Denmark. We then analyize the income devlopment and income distrubution for the different areas in Denmark and for the different age groups. W finish by examining the devlopment and growth rate in the income for different sector.
@@ -25,6 +26,7 @@ In 2022 we see that the income median is increasing in age groups but peaks at t
 The average income has increased for all sectors in Denmark from 2013 to 2022, however the sector Municipal and regional gowerment has had the greates growth rate, which is also the case when looking at the individual areas. In region Hovedstaden the highest income is from the sector Corporations and organizations, wheras in the other areas the sector for Goverment including social security funds has the highest average income, which could be because of higher average wages in the private sector in the capital city.
 
 3. Model project.
+
 In this project, we explored the Solow model with land and its implications using Python. We implemented the Solow Model with land and its extensions (natural resource), analyzing steady states, dynamics, and the impact of different parameters on economic growth.
 
 The interactive plots and simulations provided insights into how changes in savings rates, population growth, and technological progress can affect the long-term economic output.
