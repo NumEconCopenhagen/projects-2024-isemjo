@@ -52,7 +52,7 @@ class ExchangeEconomyClass:
 
         return eps1,eps2
 
-    def market_clearing_price_Q8(self,p1,maxitter=500):
+    def new_market_clearing_price(self,p1,maxitter=500):
         par = self.par
         eps = 1e-8    
         t = 0
