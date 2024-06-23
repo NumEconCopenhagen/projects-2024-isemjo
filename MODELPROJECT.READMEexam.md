@@ -3,6 +3,7 @@
 Our project is titled **The Solow Model with Land**. 
 
 This project implements an extended version of the Solow growth model, incorporating not only traditional inputs like capital and labor but also land and exhaustible natural resources. It uses numerical methods to find the steady state of the capital-output ratio under different parameter settings.
+We have used OpenAI ChatGPT 4o to helping providing the code.
 
 Contents
 - `modelprojectexam.ipynb`: Jupyter notebook containing the implementation of the Solow Growth Model and its extensions.
