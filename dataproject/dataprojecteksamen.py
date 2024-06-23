@@ -22,6 +22,7 @@ import plotly.express as px
 import ipywidgets as widgets
 from IPython.display import display
 
+#The following plots and dropboxes are made using OpenAI Chatgpt 4o:
 
 #The plot for income development in all of Denmark
 def plot_avg_income_over_years(avg_income_by_year):
