@@ -18,7 +18,7 @@ We apply the **following datasets**:
 1. LONS50 (Danmarks statistik) 
 1. LONS30 (Danmarks statistik)
 
-We have used OpenAI ChatGPT 4o to help with making code for importing, cleaning and merging the two datasets.
+We have used OpenAI ChatGPT 4o to help with making code for importing, cleaning and merging the two datasets. Plots and visualizations are made using OpenAI ChatGPT 4o.
 
 **Dependencies:** Apart from a standard Anaconda Python 3 installation, the project requires the following installations:
 
