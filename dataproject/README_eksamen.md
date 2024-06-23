@@ -12,10 +12,13 @@ The average income has increased for all sectors in Denmark from 2013 to 2022, h
 
 The **results** of the project can be seen from running [dataproject.ipynb](dataproject.ipynb).
 
+
 We apply the **following datasets**:
 
 1. LONS50 (Danmarks statistik) 
 1. LONS30 (Danmarks statistik)
+
+We have used OpenAI ChatGPT 4o to help with importing, cleaning and merging the two datasets.
 
 **Dependencies:** Apart from a standard Anaconda Python 3 installation, the project requires the following installations:
 
@@ -27,3 +30,12 @@ We apply the **following datasets**:
 
 # For data visualization
 %pip install seaborn
+
+# For widgets
+%conda install -c conda-forge nodejs
+%pip install ipywidgets
+
+# Enable the necessary Jupyter notebook extensions
+!jupyter nbextension enable --py widgetsnbextension
+!jupyter nbextension install --py widgetsnbextension
+!jupyter labextension install @jupyter-widgets/jupyterlab-manager
