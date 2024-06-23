@@ -36,6 +36,10 @@ Interactive Visualization: Utilizes interactive sliders to dynamically explore h
 
 We have used OpenAI ChatGPT 4o to help with making the code for problem 1, 2 and 3.
 
+In problem 1 we consider a production economy and CO2 taxation. 
+
+First we consider 10 values of p1 and p2 respectively in the range of {0.1,2.0}, where we find the market clearing values for the labour market, for the goods market 1 and for the goods market 2. In the next part we find the equilibrium prices p1 and p2 by using Walras’ law and checking two of the market clearings. In the end we have to find a value of tau that maximizes the social welfare function.
+
 Problem 2 deals with a career choice model. 
 
 In question 2.1 we simulate and calculate expected utility and average realized utility and find that they are the same as the random noise is zero on average (law of large numbers).
