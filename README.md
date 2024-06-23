@@ -24,7 +24,11 @@ In 2022 we see that the income median is increasing in age groups but peaks at t
 The average income has increased for all sectors in Denmark from 2013 to 2022, however the sector Municipal and regional gowerment has had the greates growth rate, which is also the case when looking at the individual areas. In region Hovedstaden the highest income is from the sector Corporations and organizations, wheras in the other areas the sector for Goverment including social security funds has the highest average income, which could be because of higher average wages in the private sector in the capital city.
 
 3. Model project.
-We model The Solow Model with Land. The project implements an extended version of the Solow growth model, incorporating not only traditional inputs like capital and labor but also land and exhaustible natural resources. It uses numerical methods to find the steady state of the capital-output ratio under different parameter settings.
+In this project, we explored the Solow model with land and its implications using Python. We implemented the Solow Model with land and its extensions (natural resource), analyzing steady states, dynamics, and the impact of different parameters on economic growth.
+
+The interactive plots and simulations provided insights into how changes in savings rates, population growth, and technological progress can affect the long-term economic output.
+
+In the Solow model with land we calculate the SS value of capital-output to 2.54 and when we extend the model with natural resource the capital-output SS value falls to 2.34.
 
 It features:
 
