@@ -12,7 +12,7 @@ In this project we examine different outcomes for an exchange economy defined fo
 
 We also solve and simulate a pre-specified economic model where we visualize the results.
 
-3. Data project.
+2. Data project.
 We fetch data from LONS50 (Danmarks statistik) on LONS30 (Danmarks statistik) using an API and show the income distrubution in Denmark based on region, age and sector.
 
 We examining the overall income devlopment from 2013 to 2022, looking at the hourly wage (earnings in DKK per hour worked) for all of Denmark. We then analyize the income devlopment and income distrubution for the different areas in Denmark and for the different age groups. W finish by examining the devlopment and growth rate in the income for different sector.
@@ -23,7 +23,7 @@ In 2022 we see that the income median is increasing in age groups but peaks at t
 
 The average income has increased for all sectors in Denmark from 2013 to 2022, however the sector Municipal and regional gowerment has had the greates growth rate, which is also the case when looking at the individual areas. In region Hovedstaden the highest income is from the sector Corporations and organizations, wheras in the other areas the sector for Goverment including social security funds has the highest average income, which could be because of higher average wages in the private sector in the capital city.
 
-4. Model project.
+3. Model project.
 We model The Solow Model with Land. The project implements an extended version of the Solow growth model, incorporating not only traditional inputs like capital and labor but also land and exhaustible natural resources. It uses numerical methods to find the steady state of the capital-output ratio under different parameter settings.
 
 It features:
@@ -32,7 +32,7 @@ Solow Growth Model Implementation: Extends the basic Solow model to include land
 Multi-Start Optimization: Employs a multi-start optimization approach to robustly find the steady state solutions.
 Interactive Visualization: Utilizes interactive sliders to dynamically explore how changes in model parameters affect the steady state.
 
-5. Exam project.
+4. Exam project.
 
 We have used OpenAI ChatGPT 4o to help with making the code for problem 1, 2 and 3.
 
